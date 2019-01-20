@@ -1,4 +1,4 @@
-baseurl         = ""
+baseurl         = "https://suspicious-bartik-2cda1a.netlify.com/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
