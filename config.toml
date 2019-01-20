@@ -1,4 +1,4 @@
-baseurl         = "https://thehistorytravellers.com"
+baseurl         = "https://thehistorytravelers.com"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -6,7 +6,7 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "The History Travellers"
+  title       = "The History Travelers"
   subtitle    = "It's Time for a Road Trip through History"
 
   cover       = "header.jpg"
@@ -17,7 +17,7 @@ paginate        = 6
   RSSLink = ""
 
   twitterName = "faketryghost"
-  fbName = "fakeghost"
+  fbName = "travellersofhistory"
   instaName = "travellersofhistory"
 
   logo = ""
