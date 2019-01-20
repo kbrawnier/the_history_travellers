@@ -1,0 +1,40 @@
+.main-header{
+    margin-bottom: 6vw;
+}
+
+.post-feed{
+    padding-top:0px;
+}
+
+.post-image{
+    height: 700px;
+    margin-bottom: -330px;
+}
+
+.home-template .site-nav{
+    top: 0px;
+}
+
+.bigger{
+    font-size: 25px;
+}
+
+#insta{
+    width:18px;
+    height:18px;
+}
+
+@media (min-width: 900px) {
+    .ctsingle .site-nav{
+        top: 0px;
+    }
+
+    .author-template .post-feed,.home-template .post-feed,.tag-template .post-feed{
+        margin-top:-10px;
+        padding-top:0;
+    }
+}
+
+.tab {
+    text-indent: 2em;
+}

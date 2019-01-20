@@ -1,0 +1,60 @@
+baseurl         = ""
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "The History Travellers"
+  subtitle    = "It's Time for a Road Trip through History"
+
+  cover       = "header.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = ["main.css"]
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  instaName = "gingeraffe42"
+
+  logo = ""
+  orgName = "Brawner Industries"
+  orgWebsite = ""
+  orgDescription = "We're the Brawner Boys and yes this is our website."
+
+  author = "Kendon Brawner"
+  authorAvatar = "kb_profile.jpg"
+  authorLocation = "Missouri"
+  authorWebsite = ""
+  authorDescription = "Just a history loving nerd"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspertwo"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Posts"
+  url = "/categories/posts/"
+  weight = 100
+
+[[menu.main]]
+  name = "About Us"
+  url = "/about-us/"
+  weight = 99
+
+[[menu.main]]
+  name = "Sources"
+  url = "/sources/"
+  weight = 95
