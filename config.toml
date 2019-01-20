@@ -3,7 +3,6 @@ theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
-title           = "The History Travellers"
 #SectionPagesMenu = "main"
 
 [params]
