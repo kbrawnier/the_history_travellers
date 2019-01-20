@@ -41,7 +41,7 @@ paginate        = 6
 
 [[menu.main]]
   name = "Home"
-  url = "thehistorytravellers.com"
+  url = "/"
   weight = 200
 
 [[menu.main]]
