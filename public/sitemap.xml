@@ -68,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://thehistorytravellers.com/search/</loc>
-    <priority>0.1</priority>
-  </url>
-  
-  <url>
     <loc>https://thehistorytravellers.com/tags/</loc>
     <lastmod>2019-01-18T16:41:11-06:00</lastmod>
     <priority>0</priority>
