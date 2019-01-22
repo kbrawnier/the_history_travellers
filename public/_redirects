@@ -1,2 +1,2 @@
 # Redirect domain aliases to primary domain
-https://thehistorytravellers.com/* https://thehistorytravelers.com/
+https://thehistorytravellers.com/* https://suspicious-bartik-2cda1a.netlify.com/:splat 301!
