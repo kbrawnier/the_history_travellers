@@ -7,18 +7,37 @@
         <h2 class="site-description">{{ .Site.Params.subtitle }} </h2>
     </div>
 
-    <nav class="site-nav">
-      <div class="site-nav-left">
-        <ul class="nav" role="menu">
-        {{ $currentNode := . }}
-        {{with .Site.Menus.main}}
-        {{ range sort . "Weight" "desc"}}
-            <li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .)}}nav-current{{end}}" role="menuitem">
+    <div id="sideNav">
+        <ul role="menu">
+          <li role="menuitem">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          </li>
+          {{ $currentNode := . }}
+          {{with .Site.Menus.main}}
+          {{ range sort . "Weight" "desc"}}
+          <li role="menuitem">
               <a href="{{.URL}}">{{.Name}}</a>
-            </li>
-        {{end}}{{end}}
+          </li>
+            {{end}}{{end}}
+        </ul>
       </div>
+
+      
+    <nav class="site-nav">
         
+      <span class="side-nav-btn" onclick="openNav()">&#9776;</span>  
+    
+        <div class="site-nav-left">
+          <ul class="nav" role="menu">
+            {{ $currentNode := . }}
+            {{with .Site.Menus.main}}
+            {{ range sort . "Weight" "desc"}}
+                <li role="menuitem">
+                  <a href="{{.URL}}">{{.Name}}</a>
+                </li>
+            {{end}}{{end}}
+          </ul>
+        </div>
 
       <div class="site-nav-right">
         <div class="social-links">

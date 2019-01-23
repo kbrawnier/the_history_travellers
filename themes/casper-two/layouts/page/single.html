@@ -1,8 +1,8 @@
 {{ partial "head" . }}
 
 {{if ne .Site.Params.singleViewStyle "casper"}}<body class="ctsingle">
-{{else}}<body class="page-template">{{end}}
-<div class="site-wrapper"> 
+{{else}}<body class="page-template" id="content">{{end}}
+<div class="site-wrapper">
 
 {{if ne .Site.Params.singleViewStyle "casper"}}{{ partial "header" . }}
 {{else}}{{ partial "header-sori" . }}{{end}}
