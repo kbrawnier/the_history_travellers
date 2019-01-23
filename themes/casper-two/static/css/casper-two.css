@@ -138,5 +138,7 @@ nav ul li a:visited{
         -ms-overflow-scrolling:touch;
         display:-ms-flexbox;
         display:flex;
-        overflow-y:hidden}
+        overflow-y:hidden;
+        font-size: 20px
+    }
 }

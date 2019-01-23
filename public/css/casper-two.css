@@ -75,19 +75,23 @@ nav ul li a:visited{
 }    
 
 #sideNav{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: #111;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000; 
+  top: 0; 
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s; 
 }
 
-#sideNav a {
+#sideNav ul{
+    list-style: none;
+}
+
+#sideNav ul li a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -96,20 +100,45 @@ nav ul li a:visited{
     transition: 0.3s;
 }
 
-#sideNav .closebtn{
+#sideNav ul li a:hover{
+    color: #f1f1f1;
+}
+
+#sideNav ul li .closebtn{
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 80px;
+}
+
+.side-nav-btn{
+    display:none;
+    padding-left: 10px;
+    cursor: pointer;
 }
 
 #content{
     transition: margin-left .5s;
-    padding: 20px;
 }
 
 @media screen and (max-height: 450px){
     #sideNav {padding-top: 15px;}
     #sideNav a {font-size: 18px;}
+}
+
+@media (max-width:700px){
+    .side-nav-btn{
+        -ms-flex-align:center;
+        align-items:center;
+        overflow-x:auto;
+        -webkit-overflow-scrolling:touch;
+        letter-spacing:.4px;
+        white-space:nowrap;
+        -ms-overflow-scrolling:touch;
+        display:-ms-flexbox;
+        display:flex;
+        overflow-y:hidden;
+        font-size: 20px
+    }
 }
