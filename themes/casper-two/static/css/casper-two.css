@@ -139,6 +139,7 @@ nav ul li a:visited{
         display:-ms-flexbox;
         display:flex;
         overflow-y:hidden;
-        font-size: 20px
+        font-size: 20px;
+        color:white;
     }
 }
