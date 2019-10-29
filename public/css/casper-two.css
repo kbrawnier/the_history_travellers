@@ -51,6 +51,18 @@ nav ul li a:visited{
     .ctsingle .site-nav {
         position: relative;
         top: 70px;
+    }
+    a {
+        font-size: 20px;
+    }
+    .site-title{
+        font-size: 50px;
+    }
+    .site-description{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        opacity: 1;
     }    
 }
 
@@ -58,6 +70,18 @@ nav ul li a:visited{
     .ctsingle .post-feed p {
         font-size: 1.8rem;
         line-height: 1.55em;
+    }
+    a {
+        font-size: 20px;
+    }
+    .site-title{
+        font-size: 50px;
+    }
+    .site-description{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        opacity: 1;
     }
 }
 
